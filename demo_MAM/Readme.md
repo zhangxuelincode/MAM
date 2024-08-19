@@ -11,8 +11,6 @@ The main requiring environment is as bellow:
 - Torch 2.0.1 
 - CUDA 11.7
 
-
-
 ## Run Meta Additive Model  （run main.py）
 
 #### （1）Generate synthetic data for specific tasks:
@@ -34,7 +32,6 @@ The main requiring environment is as bellow:
 
 
 Similar process is also available for classification tasks.
-
 
 
 ```python
