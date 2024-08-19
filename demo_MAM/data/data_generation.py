@@ -13,7 +13,6 @@ import torch.utils.data as Data
 from sklearn.preprocessing import StandardScaler
 import matplotlib as plt
 
-
 def bsplineBasis_j(x, t, j, M):
     #  bsplineBasis: compute a bspline basis function of order m.
     p = M-1; # polynomial degree
