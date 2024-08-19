@@ -28,7 +28,6 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 import warnings
 warnings.filterwarnings("ignore")
 
-
 # =============================================================================
 # Parameters & Cuda environment
 # =============================================================================
