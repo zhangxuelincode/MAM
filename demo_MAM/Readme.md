@@ -14,21 +14,24 @@ The main requiring environment is as bellow:
 ## Run Meta Additive Model  （run main.py）
 
 #### （1）Generate synthetic data for specific tasks:
+```python
+train_loader, validation_loader, testX, testY = generate_regression(number=2000, dimension=100,  noise_type='mean')
+```
 
-`train_loader, validation_loader, testX, testY = generate_regression(number=2000, dimension=100,  noise_type='mean')`
 
 ##### *The parameter noise_type :*
-
+```python
 *"None" "Gaussian"  "mean"  "modal" "studentT"  "chiSquare" "mixGauss"* 
 
 *** where "mean"  "modal" "studentT"  are present in the paper (\epsilon^A$,\epsilon^B,\epsilon^C), respectively*
-
+```
 
 
 #### （2）Start to run the MAM optimization procedure
 
-`vnet=Meta_Additive_models(train_loader, validation_loader, testX, testY,total_dimension=100*3,task='regression')`
-
+```python
+vnet=Meta_Additive_models(train_loader, validation_loader, testX, testY,total_dimension=100*3,task='regression')
+```
 
 
 Similar process is also available for classification tasks.
