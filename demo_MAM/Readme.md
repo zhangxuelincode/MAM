@@ -1,4 +1,4 @@
-# Reproduction of the submitted paper "Meta Additive Model for Auto Weighting and Sparse Approximation"
+# Reproduction of the submitted paper "Meta Additive Model: Learning Theory Analysis and Applications"
 
 
 
