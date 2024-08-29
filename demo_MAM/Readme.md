@@ -1,4 +1,4 @@
-# Reproduction of the submitted paper "Meta Additive Model: Learning Theory Analysis and Applications"
+# Reproduction of "Meta Additive Model: Learning Theory Analysis and Applications" submitted to ACHA
 
 
 
